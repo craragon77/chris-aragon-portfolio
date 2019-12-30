@@ -1,0 +1,23 @@
+.top_bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkslategrey;
+}
+.quiz_app{
+    height: 300px;
+    width: 300px;
+}
+.project, .bio, .contact{
+    background-color: gray;
+    margin: 30px;
+    padding: 20px;
+}
+.the_whole_shebang{
+    margin-top: 50px;
+}
+
+.im_hot{
+    height: 200px;
+    width: 300px
+}
