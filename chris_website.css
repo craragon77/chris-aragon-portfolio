@@ -1,17 +1,27 @@
+body{
+    font-family: Merriweather;
+}
 .top_bar{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    background-color: darkslategrey;
+    height: 70px; 
+    background-color: maroon;
+}
+.about_me, .contact_me, .written_works, .coding_works{
+    color: white;
 }
 .quiz_app{
     height: 300px;
     width: 300px;
 }
-.project, .bio, .contact{
-    background-color: gray;
+.project, .bio, .contact, .writing_samples{
+    color: black;
     margin: 30px;
     padding: 20px;
+    line-height: 40px;
+    font-size: 20px;
 }
 .the_whole_shebang{
     margin-top: 50px;
@@ -20,4 +30,66 @@
 .im_hot{
     height: 200px;
     width: 300px
+}
+.welcome{
+    text-align: center;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+    font-size: 32px;
+    line-height: 70px;    
+}
+.me{
+    color: maroon;
+    border-radius: 8px;
+}
+.resume, .projects{
+    height: 100px;
+    width: 100px;
+}
+.resume{
+    float: left;
+    padding-left: 100px;
+}
+.projects{
+    float: right;
+    padding-right: 100px;
+}
+.portfolio{
+    display: none;
+}
+.main_page{
+    display: none;
+}
+.email{
+    color: black;
+}
+#footer{
+    background-color: maroon;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+
+}
+.email, .github, .linkedin{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.writing_samples{
+    display: none;
+}
+.github, .linkedin{
+    height: 50px;
+    width: 50px;
+}
+.email{
+    height: 40px;
+    width: 50px;
+}
+.research{
+    height: 325px;
+    width: 400px;
 }
