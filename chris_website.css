@@ -16,7 +16,7 @@ body{
     height: 300px;
     width: 300px;
 }
-.project, .bio, .contact, .writing_samples{
+.project, .bio, .contact, .samples{
     color: black;
     margin: 30px;
     padding: 20px;
@@ -38,8 +38,8 @@ body{
     width: 100%;
     height: 500px;
     padding-top: 150px;
-    font-size: 32px;
-    line-height: 70px;    
+    font-size: 24px;
+    line-height: 50px;    
 }
 .me{
     color: maroon;
@@ -48,14 +48,6 @@ body{
 .resume, .projects{
     height: 100px;
     width: 100px;
-}
-.resume{
-    float: left;
-    padding-left: 100px;
-}
-.projects{
-    float: right;
-    padding-right: 100px;
 }
 .portfolio{
     display: none;
@@ -70,7 +62,6 @@ body{
     background-color: maroon;
     width: 100%;
     height: 70px;
-    position: absolute;
 
 }
 .email, .github, .linkedin{
@@ -92,4 +83,16 @@ body{
 .research{
     height: 325px;
     width: 400px;
+}
+@media only screen and (min-width: 1000px){
+    .im_hot{
+        float: left;
+        margin: 50px;
+        height: 300px;
+        width: 400px;
+    }
+    .welcome{
+        font-size: 32px;
+        line-height: 75px;
+    }
 }
