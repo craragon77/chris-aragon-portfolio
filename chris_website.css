@@ -16,7 +16,7 @@ body{
     height: 300px;
     width: 300px;
 }
-.project, .bio, .contact, .samples{
+.project, .bio, .contact, .contact_info{
     color: black;
     margin: 30px;
     padding: 20px;
@@ -49,28 +49,10 @@ body{
     height: 100px;
     width: 100px;
 }
-.portfolio{
-    display: none;
-}
-.main_page{
-    display: none;
-}
-.email{
-    color: black;
-}
-#footer{
-    background-color: maroon;
-    width: 100%;
-    height: 70px;
-
-}
 .email, .github, .linkedin{
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-}
-.writing_samples{
-    display: none;
 }
 .github, .linkedin{
     height: 50px;
@@ -83,6 +65,15 @@ body{
 .research{
     height: 325px;
     width: 400px;
+}
+a{
+    color: goldenrod;
+}
+th > a{
+    color: white;
+}
+th > a:hover{
+    color: goldenrod;
 }
 @media only screen and (min-width: 1000px){
     .im_hot{
