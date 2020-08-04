@@ -7,21 +7,41 @@ body{
     left: 0;
     width: 100%;
     height: 70px; 
-    background-color: maroon;
+    background-color: navy;
+}
+.top_bar > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding-inline-start: unset;
 }
 .about_me, .contact_me, .written_works, .coding_works{
     color: white;
 }
-.quiz_app{
+.quiz_app, .Bearfoot{
     height: 300px;
     width: 300px;
 }
-.project, .bio, .contact, .contact_info{
+.Discover-E-Pass{
+    height: 200px;
+    width: 300px;
+}
+.bio, .contact{
     color: black;
-    margin: 30px;
-    padding: 20px;
-    line-height: 40px;
-    font-size: 20px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.project > div{
+    margin-bottom: 50px;
+}
+.contact_info{
+    padding: 10px;
+    margin: 0px;
+    line-height: 25px;
+    font-size: 15px;
+    color: black;
 }
 .the_whole_shebang{
     margin-top: 50px;
@@ -41,9 +61,12 @@ body{
     font-size: 24px;
     line-height: 50px;    
 }
+.welcome > h1{
+    font-size: 40px;
+}
 .me{
-    color: maroon;
-    border-radius: 8px;
+    color: navy;
+    text-decoration: underline;
 }
 .resume, .projects{
     height: 100px;
@@ -66,14 +89,18 @@ body{
     height: 325px;
     width: 400px;
 }
-a{
-    color: goldenrod;
+a {
+    color: orange;
 }
 th > a{
     color: white;
 }
 th > a:hover{
     color: goldenrod;
+}
+.contact-links{
+    display: flex;
+    justify-content: space-around;
 }
 @media only screen and (min-width: 1000px){
     .im_hot{
