@@ -9,6 +9,7 @@ body{
     height: 70px; 
     background-color: navy;
 }
+
 .top_bar > ul{
     display: flex;
     flex-direction: row;
@@ -56,13 +57,14 @@ body{
     color: black;
     margin: 0;
     width: 100%;
-    height: 500px;
-    padding-top: 150px;
+    height: 400px;
+    padding-top: 80px;
     font-size: 24px;
     line-height: 50px;    
 }
 .welcome > h1{
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 35px;
 }
 .me{
     color: navy;
@@ -89,18 +91,63 @@ body{
     height: 325px;
     width: 400px;
 }
-a {
-    color: orange;
-}
-th > a{
+
+li > a{
     color: white;
 }
-th > a:hover{
-    color: goldenrod;
+p > a{
+    color: navy;
 }
+a:hover{
+    color: goldenrod
+}
+
 .contact-links{
     display: flex;
     justify-content: space-around;
+}
+
+.section_title{
+    text-align: center;
+}
+
+.contact_info{
+    text-align: center;
+}
+
+.project > div > p{
+    line-height: 25px;
+}
+
+.project{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px){
+    .section_title{
+        font-size: 30px;
+    }
+    .top_bar > ul{
+        padding: 10px;
+    }
+    .welcome{
+        height: 350px;
+    }
+    .bio > p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #project-description, .contact_info > p{
+        font-size:20px;
+        line-height: 40px;
+    }
+    .Discover-E-Pass{
+        height: 250px;
+        width: 400px;
+    }
+    .project > div > h3{
+        font-size: 25px;
+    }
 }
 @media only screen and (min-width: 1000px){
     .im_hot{
@@ -112,5 +159,26 @@ th > a:hover{
     .welcome{
         font-size: 32px;
         line-height: 75px;
+        display: flex;
     }
+    .welcome > h1{
+        margin: auto;
+        font-size: 40px;
+        line-height: inherit;
+    }
+    .container{
+        display: flex;
+    }
+    .project{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #project-description{
+        padding-left: 40px;
+        margin: auto;
+    }
+    .Discover-E-Pass{
+        padding-right: 20px;
+    }
+    
 }

@@ -26,7 +26,7 @@
     <main class="the_whole_shebang">
         <section id="main_page">
             <div class="bio">
-                <h1>My Life Story</a></h1>
+                <h1 class="section_title">My Life Story</a></h1>
                 <p>My name is Chris, and I am a full stack web developer. I love coding because of its many fascinating interdisciplinary applications, as it can be applied to any field or discipline to solve many of our problems.
                         I was first exposed to coding after hearing <a href="https://www.npr.org/2019/08/09/749938354/episode-932-deep-learning-with-the-elephants" target="_blank"><span>this NPR podcast</span></a> about 
                         how computer science is being used to save elephants, and since I started learning I have never looked back!
@@ -40,28 +40,51 @@
         </section>
         <section id="portfolio">
                 <div class="project">
-                    <h1>Portfolio</h1>
+                    <div>
+                        <h1 class="section_title">Portfolio</h1>
+                    </div>
+                    
                     <div>
                         <h3>The National Parks Discover-E-Pass</h3>
-                        <a href="https://parks-client.vercel.app/" target="_blank" class="parks-passport"><img class="Discover-E-Pass" src="Discover-E-Pass-snapshot.jpg" alt="Discover-E-Pass"></a>
-                        <p>Inspired by the Passport to your National Parks, the National Parks Discover-E-Pass is a program to "stamp" every national park, monument, 
+                        <section class="container">
+                            <div>
+                            <a href="https://parks-client.vercel.app/" target="_blank" class="parks-passport"><img class="Discover-E-Pass" src="Discover-E-Pass-snapshot.jpg" alt="Discover-E-Pass"></a>
+                        </div>
+                        <div id="project-description">
+                            <p>Inspired by the Passport to your National Parks, the National Parks Discover-E-Pass is a program to "stamp" every national park, monument, 
                             and historic site that you have ever attended or wish to attend. It is a fullstack program made with React, Node.js, PostgreSQL, and CSS.
                             Please feel free to view the client code <a href="https://github.com/craragon77/National-Parks-Passport-Client" target="_blank">here</a> and the server code <a href="https://github.com/craragon77/National-Parks-Passport-Server" target="_blank">here</a></p>
+                        </div>
+                        </section>
                     </div>
                     <div>
                         <h3>Bearfoot: Your Guide to the Outdoors</h3>
-                        <a href="https://craragon77.github.io/hiking-program/" target="_blank"><img class="Bearfoot" src="Bearfoot-snapshot.jpg" alt="Bearfoot"></a>
-                        <p>
+                        <section class="container">
+                            <div>
+                            <a href="https://craragon77.github.io/hiking-program/" target="_blank"><img class="Bearfoot" src="Bearfoot-snapshot.jpg" alt="Bearfoot"></a>
+                        </div>
+                        <div id="project-description">
+                            <p>
                             Bearfoot is a program designed to find hiking trails near you. Just enter your address, town, zip code, or 
                             coordiantes to explore different green spaces anywhere in the United States. This program was made with Javascript, Restful APIs, HTML5, and CSS.
                             You can find view the code here <a href="https://github.com/craragon77/hiking-program" target="_blank">here</a>
-                        </p>
+                            </p>
+                        </div>
+                        
+                        </section>
                     </div>
                     <div>
                         <h3>Car Logo Quiz</h3>
-                        <a href="https://craragon77.github.io/CarLogoQuiz/" target="_blank"><img class="quiz_app" src="car_logo_quiz.jpg"  alt="my beautiful quiz app"></a>
-                        <p>This is a quick and fun quiz of how well you know different car logos. I made it myself using Javascript, jQuery, HTML5, and CSS.
-                            Please feel free to view the code <a href="https://github.com/craragon77/CarLogoQuiz" target="_blank">here.</a></p>
+                        <section class="container">
+                            <div>
+                                <a href="https://craragon77.github.io/CarLogoQuiz/" target="_blank"><img class="quiz_app" src="car_logo_quiz.jpg"  alt="my beautiful quiz app"></a>
+                            </div>
+                            <div id="project-description">
+                                <p>This is a quick and fun quiz of how well you know different car logos. I made it myself using Javascript, jQuery, HTML5, and CSS.
+                                Please feel free to view the code <a href="https://github.com/craragon77/CarLogoQuiz" target="_blank">here.</a></p>
+                            </div>
+                        </section>
+                        
                     </div>
                     
                 </div>
@@ -69,7 +92,7 @@
         </section>
         <section id="contact_section">
             <div class="contact_info">
-                <h1>Contact Me</h1>
+                <h1 class="section_title">Contact Me</h1>
                 <p>Feel free to reach out to me at any time! I'd love to hear from you!</p>
                 <div class="contact-links">
                     <p><span><a href="https://www.linkedin.com/in/christopher-aragon-86b309153/" target="_blank">LinkedIn</a></span></p>
