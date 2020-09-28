@@ -48,7 +48,7 @@ body{
     margin-top: 50px;
 }
 
-.im_hot{
+.prof-pic{
     height: 200px;
     width: 300px
 }
@@ -137,7 +137,7 @@ a:hover{
         font-size: 20px;
         line-height: 40px;
     }
-    #project-description, .contact_info > p{
+    .project-description, .contact_info > p{
         font-size:20px;
         line-height: 40px;
     }
@@ -150,7 +150,7 @@ a:hover{
     }
 }
 @media only screen and (min-width: 1000px){
-    .im_hot{
+    .prof-pic{
         float: left;
         margin: 50px;
         height: 300px;
@@ -173,11 +173,11 @@ a:hover{
         padding-left: 30px;
         padding-right: 30px;
     }
-    #project-description{
+    .project-description{
         padding-left: 40px;
         margin: auto;
     }
-    .Discover-E-Pass{
+    .Discover-E-Pass, .Bearfoot, .quiz_app{
         padding-right: 20px;
     }
     
